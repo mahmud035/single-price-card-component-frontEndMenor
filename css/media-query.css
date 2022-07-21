@@ -1,0 +1,36 @@
+@media (max-width: 576px) {
+  .card {
+    grid-template-columns: 320px;
+    grid-template-areas:
+      'community '
+      'subscription '
+      'about-us';
+    padding: 5rem 0;
+  }
+
+  .community,
+  .subscription,
+  .about-us {
+    padding: 1.8rem 1.5rem;
+  }
+
+  .community {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .about-us {
+    border-radius: 0 0 8px 8px;
+  }
+
+  .community h1 {
+    font-size: 24px;
+  }
+
+  .community p:nth-child(3) {
+    width: 100%;
+  }
+
+  .subscription a.btn {
+    margin-right: 0;
+  }
+}
