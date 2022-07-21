@@ -151,7 +151,8 @@ body {
 }
 
 .subscription p:nth-child(3) {
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
+  color: #edf8f8;
   padding-bottom: 2rem;
 }
 
@@ -172,6 +173,6 @@ body {
 }
 
 .about-us p {
-  color: #e6e6e6;
+  color: #edf8f8;
   line-height: 24px;
 }
